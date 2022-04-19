@@ -1,0 +1,32 @@
+# Copyright 2021 - 2022 Preda Diana 314CA
+
+NUME: Preda Diana
+GROUP: 314CA
+
+HOMEWORK 1: Desperate moments
+
+In this homework we play with memory. We use data_structure as a "wrapper"
+for different so-called "dedications". 
+In data_structure we initially keep the type, the len and the specifications
+ of the "dedication" 
+
+The main "catch" of this project is that we store the data in a generic array,
+without storing any pointers, only data.
+
+We implement a set of commands to play with:
+    insert - insert a new "dedication" on the last position
+    insert at - insert a new "dedication" on an indicated position
+    delete at - delete an indicated "dedication"
+    find - find an indicated "dedication"
+    print - show all the "dedications"
+    exit - end program, free memory
+
+The most difficult aspect was, at first, figuring out how to
+traverse the array, since each element had a different size.
+After solving this issue, half of the problem was already dealt with.
+
+Besides this, the only challenging part left to do was figuring out
+the distance and the size with which to use memmove() function.
+
+I believe that after solving this project, I improved upon my usage
+of pointers and memory manipulation.
